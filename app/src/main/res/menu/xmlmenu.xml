@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<item
+    android:id="@+id/menu"
+   android:title="菜单"
+    app:showAsAction="always"
+     >
+<menu>
+    <item
+        android:id="@+id/fontsize"
+        android:title="字体大小"
+       >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/font_10" android:title="十号字体"></item>
+                <item android:id="@+id/font_16" android:title="十六号字体"></item>
+                <item android:id="@+id/font_20" android:title="二十号字体"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/putong" android:title="普通菜单项"></item>
+    <item android:id="@+id/fontcolor" android:title="字体颜色">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/font_red" android:title="红色字体"></item>
+                <item android:id="@+id/font_black" android:title="黑色字体"></item>
+            </group>
+        </menu>
+    </item>
+</menu>
+
+</item>
+</menu>
