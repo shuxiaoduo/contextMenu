@@ -135,16 +135,21 @@
     }
 
 }
-
-
 <br>
-第四题创建上下文操作模式 (ActionMode)<br>
-![image](https://github.com/shuxiaoduo/contextMenu/blob/master/contextMenu1.png)
-<br>全选菜单选项<br>
-![image](https://github.com/shuxiaoduo/contextMenu/blob/master/allselect.png)
-<br>清空菜单选项<br>
-<br>![image](https://github.com/shuxiaoduo/contextMenu/blob/master/alldelete.png)
-主要代码<br>
+第四题创建上下文操作模式 (ActionMode)
+<br>
+![Image](https://github.com/shuxiaoduo/contextMenu/blob/master/contextMenu1.png)
+<br>
+全选菜单选项
+<br>
+![Image](https://github.com/shuxiaoduo/contextMenu/blob/master/allselect.png)
+<br>
+清空菜单选项
+<br>
+![Image](https://github.com/shuxiaoduo/contextMenu/blob/master/alldelete.png)
+<br>
+主要代码
+<br>
 
 
 
